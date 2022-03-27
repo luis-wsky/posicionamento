@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .ex1{
+    background-color: darkgray;
+    width: 100vw;
+    height: 100vh;
+  }
+   .azul {
+    height: 500px;
+    width: 500px;
+    background-color: darkblue;
+    position: relative;
+    top: calc(50vh - 250px);
+    left: calc(50vw - 250px);
+    right: calc(50vw - 250px);
+    bottom: calc(50vh - 250px);
+  }
+  .vermelha {
+    height: 400px;
+    width: 400px;
+    background-color: darkred;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+    right: calc(50% - 200px);
+    bottom: calc(50% - 200px); 
+  } 
+  .preta {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(24, 23, 23);
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 150px);
+    right: calc(50% - 150px);
+    bottom: calc(50% - 150px);
+  }
+  .verde {
+    height: 200px;
+    width: 200px;
+    background-color: darkgreen;
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px); 
+    right: calc(50% - 100px); 
+    bottom: calc(50% - 100px);
+  }
+  .amarela {
+    height: 100px;
+    width: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    right: calc(50% - 50px);
+    bottom: calc(50% - 50px);
+  }
+  .ex2{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgray;
+    position: relative;
+  }
+  .a1,
+  .a2,
+  .a3,
+  .a4{
+    background-color: rgb(44, 43, 43);
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+  }
+  .a1{
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .a2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .a3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  } 
+  .a4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .ex3{
+    height: 250px;
+    width: 90vw;
+    background-color: rgb(36, 35, 35);
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 2vh;
+    left: calc(50vw - 46vw);
+  }
+  .txta{
+    color: darkgrey;
+    text-transform: uppercase;
+    font-family: serif;
+    text-align: end;
+    margin: 10px;
+  }
+  .ex3a{
+    height: 250px;
+    width: 90vw;
+    background-color: rgb(36, 35, 35);
+    padding: 10px;
+    overflow: auto;
+    border: 2px solid darkred;
+    position: absolute;
+    top: 300px;
+    left: calc(50vw - 46vw);
+  }
+  .txtb{
+    color: darkgrey;
+    text-transform: lowercase;
+    font-family: serif;
+    margin: 10px;
+  }
+  .ex4{
+      background-color: darkgray;
+  }
+  div {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(26, 25, 25);
+  }
+  .b1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .b2 {
+    position: absolute;
+    top: 0;
+    left: 55px;
+  }
+  .b3{
+    position: absolute;
+    top: 0;
+    left: 110px;
+  }
+  .b4{
+    position: absolute;
+    top: 55px;
+    left: 0;
+  }
+  .b5{
+    position: absolute;
+    top: 55px;
+    left: 55px;
+  }
+  .b6{
+    position: absolute;
+    top: 110px;
+    left: 0;
+  }
+  .b7{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .b8{
+    position: absolute;
+    bottom: 0;
+    right: 55px;
+  }
+  .b9{
+    position: absolute;
+    bottom: 0;
+    right: 110px;
+  }
+  .b10{
+    position: absolute;
+    bottom: 55px;
+    right: 0;
+  }
+  .b11{
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+  }
+  .b12{
+    position: absolute;
+    bottom: 110px;
+    right: 0;
+  }
